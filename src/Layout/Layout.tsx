@@ -1,7 +1,8 @@
 import Menu from "./Menu";
-import Greet from "../Greet";
+import Greet from "./Greet";
 import About from "./About";
 import { useState } from "react";
+
 
 const Layout = (): JSX.Element => {
 
@@ -20,7 +21,7 @@ const Layout = (): JSX.Element => {
                 <Menu />
             </div>
             <div className="container">
-                <Greet />
+                <Greet name={"Paul"}/>
                 <About />
             </div>
             

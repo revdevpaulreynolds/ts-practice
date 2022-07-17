@@ -1,5 +1,4 @@
 import './App.css';
-import Greet from "./Greet";
 import Layout from './Layout/Layout';
 
 
