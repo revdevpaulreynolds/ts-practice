@@ -1,9 +1,3 @@
-// interface Props {
-//     text: string;
-// }
-
-// @returns {JSX.Element}
-
 interface Props {
     name?: string
 }

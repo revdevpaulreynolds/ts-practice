@@ -1,6 +1,7 @@
 import Menu from "./Menu";
 import Greet from "./Greet";
 import About from "./About";
+import Header from "./Header";
 import { useState } from "react";
 
 
@@ -10,13 +11,7 @@ const Layout = (): JSX.Element => {
 
     return (
        <>
-            <div className="bg-primary text-white py-3">
-                <h1 className="text-center">
-                    Paul Reynolds<br />
-                    web developer
-                </h1>
-
-            </div>
+            <Header />
             <div>
                 <Menu />
             </div>

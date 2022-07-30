@@ -12,9 +12,6 @@ const Menu = (): JSX.Element => {
                 <li className="nav-item">
                     <a className="nav-link" href="#">Contact</a>
                 </li>
-                {/* <li className="nav-item">
-                    <a className="nav-link" href="#">Your mom</a>
-                </li> */}
             </ul>
         </>
     );
